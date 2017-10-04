@@ -1,0 +1,4 @@
+---
+applications:
+- name: AddTweet  path: target/AddTweet.war
+  host: AddTweet
