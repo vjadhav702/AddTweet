@@ -1,4 +1,4 @@
 ---
 applications:
-- name: AddTweet  path: target/AddTweet.war
-  host: AddTweet
+- name: SentimentAnalysis  path: target/SentimentAnalysis.war
+  host: SentimentAnalysis

@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html >
+<head>
+  <meta charset="UTF-8">
+  <title>Html CSS Graphs</title>
+  
+  
+  <link rel='stylesheet prefetch' href='http://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.min.css'>
+
+      <link rel="stylesheet" href="css/style.css">
+
+  
+</head>
+
+<body>
+  <div class='widget widget--2x1'>
+  
+  <div class='widget-content'>
+    <canvas id='donut' width='400px' ></canvas>
+    <ul class='value-list'>
+      <li>
+        <div class='description'>
+          Positive Tweets
+        </div>
+        <div class='value'>
+          <span id='positiveSpan'>101,342</span>
+          <span class='positive small'>
+            10.8%
+          </span>
+        </div>
+      </li>
+      <li>
+        <div class='description'>
+          Negative Tweets
+        </div>
+        <div class='value'>
+          <span id='negativeSpan'>55,342</span>
+          <span class='negative small'>
+            2.8%
+          </span>
+        </div>
+      </li>
+    </ul>
+  </div>
+  
+</div>
+
+
+  <script src='http://cdnjs.cloudflare.com/ajax/libs/Chart.js/0.2.0/Chart.min.js'></script>
+
+    <script  src="js/index.js"></script>
+
+</body>
+</html>
